@@ -1,0 +1,47 @@
+.main-table-2 {
+    width: 87%;
+    height: 100%;
+}
+
+.navbar-table-2 {
+    height: 100%;
+    width: 20%;
+    background-color: #FF8F00;
+    &:hover {
+      background-color: #42A5F5;
+    }
+    .table2 {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      .link {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          text-decoration: none;
+        }
+        &:visited {
+          text-decoration: none;
+        }
+      }
+    }
+}
+
+.content-table-2 {
+    width: 70%;
+}
+
+.header-table-2 {
+    height: 15%;
+    width: 100%;
+    background-color: #1976D2;
+}
+
+.footer-table-2 {
+    height: 15%;
+    width: 100%;
+    background-color: #1976D2;
+    &:hover {
+      background-color: #42A5F5;
+    }
+}

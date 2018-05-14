@@ -1,0 +1,42 @@
+.global-wrapper {
+  padding: 20px;
+  .html {
+    width: 50%;
+    .table, .div {
+      width: 80%;
+      padding: 20px;
+      border: solid 1px black;
+      button {
+        .link {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            text-decoration: none;
+          }
+          &:visited {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .js {
+    width: 40%;
+    margin-top: 15px;
+    padding: 20px;
+    border: solid 1px black;
+    button {
+      .link {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          text-decoration: none;
+        }
+        &:visited {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
